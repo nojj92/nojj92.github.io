@@ -11,10 +11,11 @@
   ul {list-style-type:none;
   margin: 0px;
   padding: 0px;
-  width: 60px;
+  width: 200px;
   height: 100%;
   position: fixed;
-  overflow: auto;}
+  overflow: auto;
+  font-size: 20px;}
 
   li {text-align: center;}
 
@@ -27,6 +28,8 @@
   color: black;}
 
   .active {background: #e5ecec;}
+  .left {width: 25%;}
+  .right {width: 75%;}
 
 
 
@@ -34,20 +37,26 @@
 </head>
 <body>
 
-  <ul>
+ <div class="row">
+  <dive class="left"
+   <ul>
     <li><a href="defalt.asp">Home</li>
     <li><a href="history.asp">History</li>
     <li><a href="appearance.asp">Appearance</li>
     <li><a href="temperament.asp">Temperament</li>
     <li><a href="health.asp">Health</li>
     <li><a href="gallery.asp">Gallery</li>
-  </ul>
+   </ul>
+  </div>
 
+  <div class="right">
+   <h1>Pure as snow, Samoyed</h1>
 
- <h1>Pure as snow, Samoyed</h1>
-
-  <p>The Samoyed (/ˈsæməjɛd/ SAM-ə-yed or /səˈmɔɪ.ɛd/ sə-MOY-ed) is a breed of large herding dogs with thick, white, double-layer coats. They are related to the laika, a spitz-type dog.
+   <p>The Samoyed (/ˈsæməjɛd/ SAM-ə-yed or /səˈmɔɪ.ɛd/ sə-MOY-ed) is a breed of large herding dogs with thick, white, double-layer coats. They are related to the laika, a spitz-type dog.
     It takes its name from the Samoyedic peoples of Siberia. These nomadic reindeer herders bred the fluffy white dogs to help with herding.</p>
+  </div>
+ </div>
+
 
 </body>
 </html>
