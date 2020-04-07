@@ -12,15 +12,11 @@
   margin: 0px;
   padding: 0px;
   width: 200px;
-  height: 100%;
-  position: fixed;
-  overflow: auto;
   font-size: 20px;}
 
   li {text-align: center;}
 
   li a {display: block;
-  color: black;
   padding: 8px 16px;
   text-decoration: none;}
 
@@ -28,19 +24,20 @@
   color: black;}
 
   .active {background: #e5ecec;}
-  .left {width: 25%;}
-  .right {width: 75%;}
 
+  .topnav {overflow: hidden;
+  float: left;
+  color: white;
+  background: #8ca2ac;}
 
 
   </style>
 </head>
 <body>
 
- <div class="row">
-  <div class="left">
+ <div class="topnav">
    <ul>
-    <li><a href="defalt.asp">Home</li>
+    <li><a class="active" href="defalt.asp">Home</li>
     <li><a href="history.asp">History</li>
     <li><a href="appearance.asp">Appearance</li>
     <li><a href="temperament.asp">Temperament</li>
@@ -49,13 +46,11 @@
    </ul>
   </div>
 
-  <div class="right">
    <h1>Pure as snow, Samoyed</h1>
 
    <p>The Samoyed (/ˈsæməjɛd/ SAM-ə-yed or /səˈmɔɪ.ɛd/ sə-MOY-ed) is a breed of large herding dogs with thick, white, double-layer coats. They are related to the laika, a spitz-type dog.
     It takes its name from the Samoyedic peoples of Siberia. These nomadic reindeer herders bred the fluffy white dogs to help with herding.</p>
-  </div>
- </div>
+
 
 
 </body>
