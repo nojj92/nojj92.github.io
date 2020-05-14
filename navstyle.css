@@ -1,0 +1,39 @@
+body {font-family:  'Open Sans Condensed', sans-serif;
+background: whitesmoke;}
+
+.logo {font-family: 'Alatsi';
+font-size: 40px;
+font-weight: bold;
+position: absolute;
+text-decoration: none;
+margin-left: 10px;
+float: left;}
+
+a {text-decoration: none;
+color: grey;}
+
+ul {list-style-type: none;
+}
+
+li a {display: inline-block;
+position: relative;
+margin-left: 50px;}
+
+.nav {font-size: 14px;
+font-family:  'open sans', sans-serif;
+text-transform: uppercase;
+text-align: right;
+padding: 10px 10px;}
+
+.nav a {float: right;
+ display: block;
+ text-decoration: none;
+ color: grey;
+ margin: 10px 10px;}
+
+ li a:hover {color: black;}
+
+ footer {text-align: right;
+   margin-top: 100px;
+ padding: 30px 30px;
+ background: white;}
